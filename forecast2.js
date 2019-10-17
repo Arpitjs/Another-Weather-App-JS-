@@ -22,3 +22,8 @@ class Forecast{
         return { cityDets, weather };
       }
 }
+
+//getInfo function takes the city that we pass as argument
+// then gets the city
+// then passes the city code of that city to the getWeather function to get the weather
+// then return both city and weather
